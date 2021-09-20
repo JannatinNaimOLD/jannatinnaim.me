@@ -40,3 +40,18 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .project-items {
+    flex-direction: column;
+
+    .project-item {
+      width: 100%;
+      margin-bottom: 2rem;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
