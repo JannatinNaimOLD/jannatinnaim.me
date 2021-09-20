@@ -1,0 +1,87 @@
+@import "./globals";
+
+.main-header {
+  margin-bottom: 4rem;
+}
+
+.about {
+  display: grid;
+  grid-template-areas:
+    "header  banner"
+    "text banner"
+    "text banner"
+    "text banner"
+    "text  banner";
+  margin-bottom: 4rem;
+}
+
+.about-header {
+  grid-area: header;
+  font-size: 1.75rem;
+}
+
+.about-banner {
+  grid-area: banner;
+
+  img {
+    width: 100%;
+  }
+}
+
+.about-text {
+  grid-area: text;
+
+  p {
+    line-height: 1.4;
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+    width: 80%;
+  }
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-between;
+
+  .image-canvas {
+    width: 30%;
+    background: $secondaryBackgroundColor;
+    padding: 1rem;
+    border-radius: 0.5rem;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .about {
+    grid-template-areas:
+      "banner"
+      "header"
+      "text";
+    margin-bottom: 2rem;
+  }
+
+  .about-header {
+    grid-area: header;
+    margin-bottom: 1rem;
+  }
+  .about-banner {
+    grid-area: banner;
+    margin-bottom: 2rem;
+  }
+  .about-text {
+    grid-area: text;
+  }
+
+  .gallery {
+    flex-direction: column;
+
+    .image-canvas {
+      width: 90%;
+      margin-bottom: 1rem;
+    }
+  }
+}
