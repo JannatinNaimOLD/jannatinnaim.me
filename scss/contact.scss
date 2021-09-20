@@ -1,0 +1,57 @@
+@import "./globals";
+
+.main-header {
+  margin-bottom: 4rem;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact {
+  width: 40%;
+  order: 2;
+
+  h1 {
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+  }
+
+  a {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+
+    .text {
+      margin-left: 1rem;
+    }
+  }
+  a:hover {
+    color: $secondaryBackgroundColor;
+  }
+}
+
+.banner {
+  width: 50%;
+  order: 1;
+
+  img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+  }
+
+  .contact {
+    width: 100%;
+  }
+
+  .banner {
+    width: 100%;
+    margin-bottom: 4rem;
+  }
+}
