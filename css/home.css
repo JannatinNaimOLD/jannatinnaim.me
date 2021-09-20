@@ -1,0 +1,28 @@
+.main-title {
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.banner {
+  margin-bottom: 2rem;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.be-awesome {
+  margin: 6rem 0;
+  text-align: center;
+  font-weight: 300;
+  opacity: 0.5;
+}
+
+@media (min-width: 768px) {
+  .main-title {
+    font-size: 2.5rem;
+  }
+}
+/*# sourceMappingURL=home.css.map */
