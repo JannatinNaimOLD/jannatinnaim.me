@@ -1,9 +1,13 @@
+// IMPORT GLOBAL VARIABLES
 @import "./globals";
 
+// PAGE HEADER | START
 .main-header {
   margin-bottom: 4rem;
 }
+// PAGE HEADER | END
 
+// ABOUT SECTION | START
 .about {
   display: grid;
   grid-template-areas:
@@ -38,7 +42,9 @@
     width: 80%;
   }
 }
+// ABOUT SECTION | END
 
+// GALLERY | START
 .gallery {
   display: flex;
   justify-content: space-between;
@@ -54,7 +60,9 @@
     width: 100%;
   }
 }
+// GALLERY | END
 
+// MEDIA QUERY | SCREEN <= 768PX (MOBILE VIEW) | START
 @media (max-width: 768px) {
   .about {
     grid-template-areas:
@@ -85,3 +93,4 @@
     }
   }
 }
+// MEDIA QUERY | SCREEN <= 768PX (MOBILE VIEW) | END

@@ -1,14 +1,20 @@
+// IMPORT GLOBAL VARIABLES
 @import "./globals";
 
+// PAGE HEADER | START
 .main-header {
   margin-bottom: 4rem;
 }
+// PAGE HEADER | END
 
+// CONTACT FLEX CONTAINER | START
 .contact-container {
   display: flex;
   justify-content: space-between;
 }
+// CONTACT FLEX CONTAINER | END
 
+// CONTACT SECTION | START
 .contact {
   width: 40%;
   order: 2;
@@ -31,7 +37,9 @@
     color: $secondaryBackgroundColor;
   }
 }
+// CONTACT SECTION | END
 
+// BANNER | START
 .banner {
   width: 50%;
   order: 1;
@@ -40,7 +48,9 @@
     width: 100%;
   }
 }
+// BANNER | END
 
+// MEDIA QUERY | SCREEN <= 768PX (MOBILE VIEW) | START
 @media (max-width: 768px) {
   .contact-container {
     flex-direction: column;
@@ -55,3 +65,4 @@
     margin-bottom: 4rem;
   }
 }
+// MEDIA QUERY | SCREEN <= 768PX (MOBILE VIEW) | END

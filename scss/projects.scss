@@ -1,17 +1,23 @@
+// IMPORT GLOBAL VARIABLES
 @import "./globals";
 
+// PROJECTS BANNER | START
 .projects-banner {
   img {
     width: 100%;
   }
 }
+// PROJECTS BANNER | END
 
+// PROJECTS HEADER | START
 .projects-header {
   font-size: 1.75rem;
   text-align: center;
   margin: 2rem 0;
 }
+// PROJECTS HEADER | END
 
+// PROJECT ITEMS SECTION | START
 .project-items {
   display: flex;
   justify-content: space-between;
@@ -40,7 +46,9 @@
     }
   }
 }
+// PROJECT ITEMS SECTION | END
 
+// MEDIA QUERY | SCREEN <= 768PX (MOBILE VIEW) | START
 @media (max-width: 768px) {
   .project-items {
     flex-direction: column;
@@ -55,3 +63,4 @@
     }
   }
 }
+// MEDIA QUERY | SCREEN <= 768PX (MOBILE VIEW) | END

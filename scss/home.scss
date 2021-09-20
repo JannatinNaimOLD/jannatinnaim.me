@@ -1,10 +1,13 @@
+// PAGE HEADER | START
 .main-title {
   font-size: 2rem;
   font-weight: 500;
   text-align: center;
   margin-bottom: 2rem;
 }
+// PAGE HEADER | END
 
+// BANNER | START
 .banner {
   margin-bottom: 2rem;
 
@@ -12,16 +15,21 @@
     width: 100%;
   }
 }
+// BANNER | END
 
+// FILLER TEXT | START
 .be-awesome {
   margin-top: 6rem;
   text-align: center;
   font-weight: 300;
   opacity: 0.5;
 }
+// FILLER TEXT | END
 
+// MEDIA QUERY | SCREEN > 768PX (DESKTOP/TABLET VIEW) | START
 @media (min-width: 768px) {
   .main-title {
     font-size: 2.5rem;
   }
 }
+// MEDIA QUERY | SCREEN > 768PX (DESKTOP/TABLET VIEW) | END
