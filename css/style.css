@@ -34,7 +34,7 @@ a {
   border-radius: 0.5rem;
 }
 
-.button :hover {
+.button:hover {
   background: #b3b3b3;
 }
 
