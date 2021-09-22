@@ -88,8 +88,12 @@
     flex-direction: column;
 
     .image-canvas {
-      width: 90%;
+      width: 100%;
       margin-bottom: 1rem;
+
+      img {
+        width: 100%;
+      }
     }
   }
 }

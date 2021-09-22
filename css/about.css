@@ -90,8 +90,11 @@
             flex-direction: column;
   }
   .gallery .image-canvas {
-    width: 90%;
+    width: 100%;
     margin-bottom: 1rem;
+  }
+  .gallery .image-canvas img {
+    width: 100%;
   }
 }
 /*# sourceMappingURL=about.css.map */
