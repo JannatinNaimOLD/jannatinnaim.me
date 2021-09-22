@@ -52,9 +52,9 @@
   .image-canvas {
     width: 30%;
     background: $secondaryBackgroundColor;
-    padding: 1rem;
     border-radius: 0.5rem;
     transition: all 0.3s ease-out;
+    box-shadow: 0 0 5px $secondaryBackgroundColor;
   }
 
   .image-canvas:hover {
@@ -64,6 +64,8 @@
 
   img {
     width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
   }
 }
 // GALLERY | END
@@ -104,3 +106,10 @@
   }
 }
 // MEDIA QUERY | SCREEN <= 768PX (MOBILE VIEW) | END
+
+.temp-text {
+  opacity: 0.5;
+  color: $primaryTextColor;
+  text-align: right;
+  margin-top: 6rem;
+}

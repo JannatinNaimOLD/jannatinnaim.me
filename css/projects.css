@@ -23,7 +23,6 @@
 
 .project-items .project-item .image {
   background: #737373;
-  padding: 1rem;
   margin-bottom: 0.5rem;
   border-radius: 0.5rem;
   -webkit-transition: all 0.3s ease-out;
@@ -36,7 +35,9 @@
 }
 
 .project-items .project-item img {
+  display: block;
   width: 100%;
+  border-radius: 0.5rem;
 }
 
 .project-items .project-item .image:hover {
