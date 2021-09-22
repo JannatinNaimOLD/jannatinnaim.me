@@ -1,3 +1,7 @@
+.main-header {
+  margin-bottom: 4rem;
+}
+
 .main-title {
   font-size: 2rem;
   font-weight: 500;
@@ -11,6 +15,20 @@
 
 .banner img {
   width: 100%;
+}
+
+.button {
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.button:hover {
+  color: #00aaff;
+  background: #404040;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-box-shadow: 0 0 10px #737373;
+          box-shadow: 0 0 10px #737373;
 }
 
 .be-awesome {

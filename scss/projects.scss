@@ -30,6 +30,7 @@
       padding: 1rem;
       margin-bottom: 0.5rem;
       border-radius: 0.5rem;
+      transition: all 0.3s ease-out;
     }
 
     .text {
@@ -43,6 +44,16 @@
 
     .image:hover {
       background: hsl(0, 0%, 50%);
+      transform: scale(1.1);
+      margin-bottom: 1rem;
+      box-shadow: 0 0 10px $primaryTextColor;
+    }
+  }
+
+  .project-item:hover {
+    .text {
+      font-weight: 700;
+      color: $highlightColor;
     }
   }
 }

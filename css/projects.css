@@ -26,6 +26,8 @@
   padding: 1rem;
   margin-bottom: 0.5rem;
   border-radius: 0.5rem;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
 }
 
 .project-items .project-item .text {
@@ -39,6 +41,16 @@
 
 .project-items .project-item .image:hover {
   background: gray;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  margin-bottom: 1rem;
+  -webkit-box-shadow: 0 0 10px #404040;
+          box-shadow: 0 0 10px #404040;
+}
+
+.project-items .project-item:hover .text {
+  font-weight: 700;
+  color: #00aaff;
 }
 
 @media (max-width: 768px) {

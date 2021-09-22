@@ -55,6 +55,15 @@
   background: #737373;
   padding: 1rem;
   border-radius: 0.5rem;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.gallery .image-canvas:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-box-shadow: 0 0 10px #00aaff;
+          box-shadow: 0 0 10px #00aaff;
 }
 
 .gallery img {

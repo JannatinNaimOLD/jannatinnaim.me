@@ -1,3 +1,11 @@
+@import "./globals";
+
+// MAIN HEADER | START
+.main-header {
+  margin-bottom: 4rem;
+}
+// MAIN HEADER | END
+
 // PAGE HEADER | START
 .main-title {
   font-size: 2rem;
@@ -16,6 +24,19 @@
   }
 }
 // BANNER | END
+
+// BUTTON | START
+.button {
+  transition: all 0.3s ease-out;
+}
+
+.button:hover {
+  color: $highlightColor;
+  background: $primaryTextColor;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px $secondaryBackgroundColor;
+}
+// BUTTON | END
 
 // FILLER TEXT | START
 .be-awesome {

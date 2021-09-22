@@ -13,6 +13,7 @@ body {
   font-family: "Roboto", sans-serif;
   min-height: 100vh;
 }
+
 a {
   color: $primaryTextColor;
   text-decoration: none;
@@ -42,6 +43,10 @@ a {
   background: hsl(0, 0%, 70%);
 }
 
+.highlight {
+  color: $highlightColor;
+}
+
 // HEADER | START
 .main-header {
   display: flex;
@@ -69,10 +74,17 @@ a {
     font-size: 1.125rem;
     font-weight: 500;
     margin-bottom: 0.125rem;
+    transition: all 0.3s ease-out;
   }
 
   li:hover {
     font-weight: 700;
+    transform: scale(1.125);
+
+    a {
+      color: $highlightColor;
+      text-shadow: 0 0 1px $secondaryBackgroundColor;
+    }
   }
 }
 // HEADER | END

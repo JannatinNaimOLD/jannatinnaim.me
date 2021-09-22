@@ -31,6 +31,8 @@
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 1rem;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
 }
 
 .contact a .text {
@@ -38,7 +40,9 @@
 }
 
 .contact a:hover {
-  color: #737373;
+  color: #00aaff;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .banner {

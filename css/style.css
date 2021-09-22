@@ -39,6 +39,10 @@ a {
   background: #b3b3b3;
 }
 
+.highlight {
+  color: #00aaff;
+}
+
 .main-header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -78,10 +82,19 @@ a {
   font-size: 1.125rem;
   font-weight: 500;
   margin-bottom: 0.125rem;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
 }
 
 .main-navbar li:hover {
   font-weight: 700;
+  -webkit-transform: scale(1.125);
+          transform: scale(1.125);
+}
+
+.main-navbar li:hover a {
+  color: #00aaff;
+  text-shadow: 0 0 1px #737373;
 }
 
 @media (min-width: 768px) {

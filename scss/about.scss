@@ -54,6 +54,12 @@
     background: $secondaryBackgroundColor;
     padding: 1rem;
     border-radius: 0.5rem;
+    transition: all 0.3s ease-out;
+  }
+
+  .image-canvas:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px $highlightColor;
   }
 
   img {
